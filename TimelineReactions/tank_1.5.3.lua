@@ -32,6 +32,115 @@ local tbl =
 					{
 						data = 
 						{
+							aType = "ACR",
+							conditions = 
+							{
+								
+								{
+									"26598cd4-fc8c-c522-bd73-f7d3e7987af1",
+									true,
+								},
+							},
+							gVar = "ACR_RikuDRK3_Hotbar_Grit",
+							uuid = "6346e2b0-c823-6c95-9f75-e456e2e541d7",
+							variableTogglesType = 2,
+							version = 2.1,
+						},
+					},
+					
+					{
+						data = 
+						{
+							aType = "ACR",
+							conditions = 
+							{
+								
+								{
+									"36072170-0004-cab6-aab0-f63041ee6ca1",
+									true,
+								},
+							},
+							gVar = "ACR_RikuGNB3_Hotbar_RoyalGuard",
+							uuid = "fcb69d79-54ed-71ba-b26e-3c46c4c01d2d",
+							variableTogglesType = 2,
+							version = 2.1,
+						},
+					},
+					
+					{
+						data = 
+						{
+							aType = "ACR",
+							conditions = 
+							{
+								
+								{
+									"6d4c7b54-69b0-70f4-b8af-442ea667827c",
+									true,
+								},
+							},
+							gVar = "ACR_RikuWAR3_Hotbar_Defiance",
+							uuid = "581672d9-1ff0-6f0a-ac32-cda1636d8f2e",
+							variableTogglesType = 2,
+							version = 2.1,
+						},
+					},
+				},
+				conditions = 
+				{
+					
+					{
+						data = 
+						{
+							buffID = 743,
+							category = "Self",
+							name = "dk",
+							uuid = "26598cd4-fc8c-c522-bd73-f7d3e7987af1",
+							version = 3,
+						},
+					},
+					
+					{
+						data = 
+						{
+							buffID = 1833,
+							category = "Self",
+							name = "GNB",
+							uuid = "36072170-0004-cab6-aab0-f63041ee6ca1",
+							version = 3,
+						},
+					},
+					
+					{
+						data = 
+						{
+							buffID = 91,
+							category = "Self",
+							name = "WAR",
+							uuid = "6d4c7b54-69b0-70f4-b8af-442ea667827c",
+							version = 3,
+						},
+					},
+				},
+				enabled = false,
+				mechanicTime = 15.264636363636,
+				name = "关盾",
+				timelineIndex = 1,
+				uuid = "d91087c8-ff0e-4890-bbb3-799b0b478a47",
+				version = 2,
+			},
+			inheritedIndex = 2,
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
 							aType = "Alert",
 							alertPriority = 3,
 							alertTTS = true,
@@ -105,7 +214,7 @@ local tbl =
 				uuid = "32e34462-d2c8-10ff-9aee-c902f63f633a",
 				version = 2,
 			},
-			inheritedIndex = 1,
+			inheritedIndex = 3,
 		},
 		
 		{
@@ -274,7 +383,7 @@ local tbl =
 				uuid = "16e2fe13-1c27-373f-b6a4-21d7073f7926",
 				version = 2,
 			},
-			inheritedIndex = 3,
+			inheritedIndex = 4,
 		},
 		
 		{
@@ -462,7 +571,7 @@ local tbl =
 						data = 
 						{
 							category = "Lua",
-							conditionLua = "return MuAiGuide.Config.DmuCatZCfg.RevoltingRuinIII_1.value == 3\n",
+							conditionLua = "return MuAiGuide.Config.DmuCatZCfg.RevoltingRuinIII_1.value == 3\nor\nMuAiGuide.Config.DmuCatZCfg.RevoltingRuinIII_1.value == 4\n",
 							name = "p1-1-3",
 							uuid = "5838b868-bbb9-5201-824a-77c1cd987fcd",
 							version = 3,
@@ -619,7 +728,7 @@ local tbl =
 				uuid = "9027e72c-82ba-8e1f-8e27-874b589bd4df",
 				version = 2,
 			},
-			inheritedIndex = 2,
+			inheritedIndex = 1,
 		},
 		
 		{
@@ -792,7 +901,7 @@ local tbl =
 				uuid = "bd3c68a6-5807-8d71-bada-5453d8f26642",
 				version = 2,
 			},
-			inheritedIndex = 4,
+			inheritedIndex = 5,
 		},
 	},
 	
@@ -2598,11 +2707,6 @@ local tbl =
 								},
 								
 								{
-									"e1c894d5-ae02-8e65-a803-40645ff2cfc4",
-									true,
-								},
-								
-								{
 									"fb259214-2f6a-17a1-8db7-d5f2a990ba71",
 									true,
 								},
@@ -2628,11 +2732,6 @@ local tbl =
 								
 								{
 									"daa2114b-4f3d-c6b0-83c5-ca1d72f5c88d",
-									true,
-								},
-								
-								{
-									"e1c894d5-ae02-8e65-a803-40645ff2cfc4",
 									true,
 								},
 								
@@ -2666,11 +2765,6 @@ local tbl =
 								},
 								
 								{
-									"e1c894d5-ae02-8e65-a803-40645ff2cfc4",
-									true,
-								},
-								
-								{
 									"9a771037-2d2a-6f83-8f41-f9a48a9e9483",
 									true,
 								},
@@ -2700,18 +2794,6 @@ local tbl =
 							version = 3,
 						},
 						inheritedIndex = 1,
-					},
-					
-					{
-						data = 
-						{
-							category = "Lua",
-							conditionLua = "return _G[\"ACR_\"..gACRSelectedProfiles[TensorCore.mGetPlayer().job]..\"_TankStance\"] == \"mt\"",
-							name = "isMT",
-							uuid = "e1c894d5-ae02-8e65-a803-40645ff2cfc4",
-							version = 3,
-						},
-						inheritedIndex = 2,
 					},
 					
 					{
@@ -3000,11 +3082,6 @@ local tbl =
 								},
 								
 								{
-									"e3bda95c-52f3-d745-ae38-be00e75de71f",
-									true,
-								},
-								
-								{
 									"767f3ac3-0814-6329-8422-a93bc993116d",
 									true,
 								},
@@ -3018,18 +3095,6 @@ local tbl =
 				},
 				conditions = 
 				{
-					
-					{
-						data = 
-						{
-							category = "Lua",
-							conditionLua = "return _G[\"ACR_\"..gACRSelectedProfiles[TensorCore.mGetPlayer().job]..\"_TankStance\"] == \"mt\"",
-							name = "isMT",
-							uuid = "e3bda95c-52f3-d745-ae38-be00e75de71f",
-							version = 3,
-						},
-						inheritedIndex = 1,
-					},
 					
 					{
 						data = 
@@ -3193,11 +3258,6 @@ local tbl =
 								},
 								
 								{
-									"d243a999-6b84-d34f-bc4d-74526dd8fc12",
-									true,
-								},
-								
-								{
 									"051e7732-0c27-8be5-b546-f255d621a200",
 									true,
 								},
@@ -3252,18 +3312,6 @@ local tbl =
 					{
 						data = 
 						{
-							category = "Lua",
-							conditionLua = "return _G[\"ACR_\"..gACRSelectedProfiles[TensorCore.mGetPlayer().job]..\"_TankStance\"] == \"mt\"",
-							name = "isMT",
-							uuid = "d243a999-6b84-d34f-bc4d-74526dd8fc12",
-							version = 3,
-						},
-						inheritedIndex = 2,
-					},
-					
-					{
-						data = 
-						{
 							category = "Self",
 							conditionType = 13,
 							jobValue = "DARKKNIGHT",
@@ -3308,11 +3356,6 @@ local tbl =
 								},
 								
 								{
-									"1ffe845e-7d9a-c8bd-9a2a-81788cc9f05d",
-									true,
-								},
-								
-								{
 									"767a9330-2eea-bd3a-83ce-a8c50a4a3547",
 									true,
 								},
@@ -3352,18 +3395,6 @@ local tbl =
 							version = 3,
 						},
 						inheritedIndex = 1,
-					},
-					
-					{
-						data = 
-						{
-							category = "Lua",
-							conditionLua = "return _G[\"ACR_\"..gACRSelectedProfiles[TensorCore.mGetPlayer().job]..\"_TankStance\"] == \"mt\"",
-							name = "isMT",
-							uuid = "1ffe845e-7d9a-c8bd-9a2a-81788cc9f05d",
-							version = 3,
-						},
-						inheritedIndex = 2,
 					},
 					
 					{
@@ -3414,11 +3445,6 @@ local tbl =
 								},
 								
 								{
-									"425c5c2d-e8a9-1927-a982-d2b194f7a9dc",
-									true,
-								},
-								
-								{
 									"42df6567-88d1-5aed-acae-725496027278",
 									true,
 								},
@@ -3456,18 +3482,6 @@ local tbl =
 							uuid = "7c427ec4-7fb9-79b9-a807-b62b9f38dbe8",
 							version = 3,
 						},
-					},
-					
-					{
-						data = 
-						{
-							category = "Lua",
-							conditionLua = "return _G[\"ACR_\"..gACRSelectedProfiles[TensorCore.mGetPlayer().job]..\"_TankStance\"] == \"mt\"",
-							name = "isMT",
-							uuid = "425c5c2d-e8a9-1927-a982-d2b194f7a9dc",
-							version = 3,
-						},
-						inheritedIndex = 2,
 					},
 					
 					{
@@ -3512,11 +3526,6 @@ local tbl =
 								},
 								
 								{
-									"403bc62f-2dc0-b00a-a08c-bfa2dc88b75d",
-									true,
-								},
-								
-								{
 									"3e066724-1277-99df-a9b9-527b3479c0c8",
 									true,
 								},
@@ -3547,18 +3556,6 @@ local tbl =
 							uuid = "27e2182d-961d-a1c7-90ab-181786a493f6",
 							version = 3,
 						},
-					},
-					
-					{
-						data = 
-						{
-							category = "Lua",
-							conditionLua = "return _G[\"ACR_\"..gACRSelectedProfiles[TensorCore.mGetPlayer().job]..\"_TankStance\"] == \"mt\"",
-							name = "isMT",
-							uuid = "403bc62f-2dc0-b00a-a08c-bfa2dc88b75d",
-							version = 3,
-						},
-						inheritedIndex = 2,
 					},
 					
 					{
@@ -3611,11 +3608,6 @@ local tbl =
 							{
 								
 								{
-									"fc7b97b8-d484-4c2b-be3e-0fcf28328c00",
-									true,
-								},
-								
-								{
 									"9362d2dd-f097-8927-9cad-a99aa5c1f2c6",
 									true,
 								},
@@ -3634,18 +3626,6 @@ local tbl =
 				},
 				conditions = 
 				{
-					
-					{
-						data = 
-						{
-							category = "Lua",
-							conditionLua = "return _G[\"ACR_\"..gACRSelectedProfiles[TensorCore.mGetPlayer().job]..\"_TankStance\"] == \"mt\"",
-							name = "isMT",
-							uuid = "fc7b97b8-d484-4c2b-be3e-0fcf28328c00",
-							version = 3,
-						},
-						inheritedIndex = 2,
-					},
 					
 					{
 						data = 
@@ -3789,11 +3769,6 @@ local tbl =
 								},
 								
 								{
-									"1ffe845e-7d9a-c8bd-9a2a-81788cc9f05d",
-									true,
-								},
-								
-								{
 									"767a9330-2eea-bd3a-83ce-a8c50a4a3547",
 									true,
 								},
@@ -3812,11 +3787,6 @@ local tbl =
 							aType = "ACR",
 							conditions = 
 							{
-								
-								{
-									"1ffe845e-7d9a-c8bd-9a2a-81788cc9f05d",
-									true,
-								},
 								
 								{
 									"a1f77461-257e-291c-a1f2-78e136c783f1",
@@ -3845,18 +3815,6 @@ local tbl =
 							uuid = "8d7249e3-1221-3e34-9475-3845b7d47086",
 							version = 3,
 						},
-					},
-					
-					{
-						data = 
-						{
-							category = "Lua",
-							conditionLua = "return _G[\"ACR_\"..gACRSelectedProfiles[TensorCore.mGetPlayer().job]..\"_TankStance\"] == \"ot\"",
-							name = "isST",
-							uuid = "1ffe845e-7d9a-c8bd-9a2a-81788cc9f05d",
-							version = 3,
-						},
-						inheritedIndex = 2,
 					},
 					
 					{
@@ -6052,11 +6010,6 @@ local tbl =
 								},
 								
 								{
-									"e1c894d5-ae02-8e65-a803-40645ff2cfc4",
-									true,
-								},
-								
-								{
 									"fb259214-2f6a-17a1-8db7-d5f2a990ba71",
 									true,
 								},
@@ -6082,11 +6035,6 @@ local tbl =
 								
 								{
 									"daa2114b-4f3d-c6b0-83c5-ca1d72f5c88d",
-									true,
-								},
-								
-								{
-									"e1c894d5-ae02-8e65-a803-40645ff2cfc4",
 									true,
 								},
 								
@@ -6120,11 +6068,6 @@ local tbl =
 								},
 								
 								{
-									"e1c894d5-ae02-8e65-a803-40645ff2cfc4",
-									true,
-								},
-								
-								{
 									"9a771037-2d2a-6f83-8f41-f9a48a9e9483",
 									true,
 								},
@@ -6154,18 +6097,6 @@ local tbl =
 							version = 3,
 						},
 						inheritedIndex = 1,
-					},
-					
-					{
-						data = 
-						{
-							category = "Lua",
-							conditionLua = "return _G[\"ACR_\"..gACRSelectedProfiles[TensorCore.mGetPlayer().job]..\"_TankStance\"] == \"mt\"",
-							name = "isMT",
-							uuid = "e1c894d5-ae02-8e65-a803-40645ff2cfc4",
-							version = 3,
-						},
-						inheritedIndex = 2,
 					},
 					
 					{
@@ -6454,11 +6385,6 @@ local tbl =
 								},
 								
 								{
-									"e3bda95c-52f3-d745-ae38-be00e75de71f",
-									true,
-								},
-								
-								{
 									"767f3ac3-0814-6329-8422-a93bc993116d",
 									true,
 								},
@@ -6472,18 +6398,6 @@ local tbl =
 				},
 				conditions = 
 				{
-					
-					{
-						data = 
-						{
-							category = "Lua",
-							conditionLua = "return _G[\"ACR_\"..gACRSelectedProfiles[TensorCore.mGetPlayer().job]..\"_TankStance\"] == \"mt\"",
-							name = "isMT",
-							uuid = "e3bda95c-52f3-d745-ae38-be00e75de71f",
-							version = 3,
-						},
-						inheritedIndex = 1,
-					},
 					
 					{
 						data = 
@@ -6642,11 +6556,6 @@ local tbl =
 								},
 								
 								{
-									"425c5c2d-e8a9-1927-a982-d2b194f7a9dc",
-									true,
-								},
-								
-								{
 									"42df6567-88d1-5aed-acae-725496027278",
 									true,
 								},
@@ -6684,18 +6593,6 @@ local tbl =
 							uuid = "7c427ec4-7fb9-79b9-a807-b62b9f38dbe8",
 							version = 3,
 						},
-					},
-					
-					{
-						data = 
-						{
-							category = "Lua",
-							conditionLua = "return _G[\"ACR_\"..gACRSelectedProfiles[TensorCore.mGetPlayer().job]..\"_TankStance\"] == \"mt\"",
-							name = "isMT",
-							uuid = "425c5c2d-e8a9-1927-a982-d2b194f7a9dc",
-							version = 3,
-						},
-						inheritedIndex = 2,
 					},
 					
 					{
@@ -6745,11 +6642,6 @@ local tbl =
 								
 								{
 									"5498e129-4957-740e-804a-da4af6ace723",
-									true,
-								},
-								
-								{
-									"d243a999-6b84-d34f-bc4d-74526dd8fc12",
 									true,
 								},
 								
@@ -6808,18 +6700,6 @@ local tbl =
 					{
 						data = 
 						{
-							category = "Lua",
-							conditionLua = "return _G[\"ACR_\"..gACRSelectedProfiles[TensorCore.mGetPlayer().job]..\"_TankStance\"] == \"mt\"",
-							name = "isMT",
-							uuid = "d243a999-6b84-d34f-bc4d-74526dd8fc12",
-							version = 3,
-						},
-						inheritedIndex = 2,
-					},
-					
-					{
-						data = 
-						{
 							category = "Self",
 							conditionType = 13,
 							jobValue = "DARKKNIGHT",
@@ -6860,11 +6740,6 @@ local tbl =
 								
 								{
 									"7904648c-a90a-a88d-b074-4d60edbf801f",
-									true,
-								},
-								
-								{
-									"1ffe845e-7d9a-c8bd-9a2a-81788cc9f05d",
 									true,
 								},
 								
@@ -6913,18 +6788,6 @@ local tbl =
 					{
 						data = 
 						{
-							category = "Lua",
-							conditionLua = "return _G[\"ACR_\"..gACRSelectedProfiles[TensorCore.mGetPlayer().job]..\"_TankStance\"] == \"mt\"",
-							name = "isMT",
-							uuid = "1ffe845e-7d9a-c8bd-9a2a-81788cc9f05d",
-							version = 3,
-						},
-						inheritedIndex = 2,
-					},
-					
-					{
-						data = 
-						{
 							category = "Self",
 							conditionType = 13,
 							jobValue = "DARKKNIGHT",
@@ -6965,11 +6828,6 @@ local tbl =
 								},
 								
 								{
-									"403bc62f-2dc0-b00a-a08c-bfa2dc88b75d",
-									true,
-								},
-								
-								{
 									"3e066724-1277-99df-a9b9-527b3479c0c8",
 									true,
 								},
@@ -7000,18 +6858,6 @@ local tbl =
 							uuid = "27e2182d-961d-a1c7-90ab-181786a493f6",
 							version = 3,
 						},
-					},
-					
-					{
-						data = 
-						{
-							category = "Lua",
-							conditionLua = "return _G[\"ACR_\"..gACRSelectedProfiles[TensorCore.mGetPlayer().job]..\"_TankStance\"] == \"mt\"",
-							name = "isMT",
-							uuid = "403bc62f-2dc0-b00a-a08c-bfa2dc88b75d",
-							version = 3,
-						},
-						inheritedIndex = 2,
 					},
 					
 					{
@@ -7064,11 +6910,6 @@ local tbl =
 							{
 								
 								{
-									"fc7b97b8-d484-4c2b-be3e-0fcf28328c00",
-									true,
-								},
-								
-								{
 									"9362d2dd-f097-8927-9cad-a99aa5c1f2c6",
 									true,
 								},
@@ -7087,18 +6928,6 @@ local tbl =
 				},
 				conditions = 
 				{
-					
-					{
-						data = 
-						{
-							category = "Lua",
-							conditionLua = "return _G[\"ACR_\"..gACRSelectedProfiles[TensorCore.mGetPlayer().job]..\"_TankStance\"] == \"mt\"",
-							name = "isMT",
-							uuid = "fc7b97b8-d484-4c2b-be3e-0fcf28328c00",
-							version = 3,
-						},
-						inheritedIndex = 2,
-					},
 					
 					{
 						data = 
