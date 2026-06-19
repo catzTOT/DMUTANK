@@ -7283,8 +7283,8 @@ local tbl =
 						data = 
 						{
 							category = "Lua",
-							conditionLua = "return MuAiGuide.Config.DmuCatZCfg.LightingJudgment_1.value == 3",
-							name = "p1-2-3",
+							conditionLua = "return MuAiGuide.Config.DmuCatZCfg.LightingJudgment_2.value == 3",
+							name = "p1-4-3",
 							uuid = "6c0399c3-55e2-e06f-815f-6b69b5e3f27c",
 							version = 3,
 						},
@@ -7407,6 +7407,81 @@ local tbl =
 				uuid = "074e5595-b6d1-7db8-a2a4-6fc93eb85683",
 				version = 2,
 			},
+		},
+	},
+	[37] = 
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "ACR",
+							conditions = 
+							{
+								
+								{
+									"8d7249e3-1221-3e34-9475-3845b7d47086",
+									true,
+								},
+								
+								{
+									"767a9330-2eea-bd3a-83ce-a8c50a4a3547",
+									true,
+								},
+							},
+							endIfUsed = true,
+							gVar = "ACR_RikuDRK3_Tankbar_Oblation",
+							uuid = "572bd1ba-2225-93ad-ab7c-c81361da1fb0",
+							variableIsHover = true,
+							variableTogglesType = 3,
+							version = 2.1,
+						},
+					},
+				},
+				conditions = 
+				{
+					
+					{
+						data = 
+						{
+							actionCDValue = 61,
+							actionID = 25754,
+							category = "Self",
+							comparator = 2,
+							conditionType = 4,
+							uuid = "8d7249e3-1221-3e34-9475-3845b7d47086",
+							version = 3,
+						},
+					},
+					
+					{
+						data = 
+						{
+							category = "Self",
+							conditionType = 13,
+							jobValue = "DARKKNIGHT",
+							name = "isDRK",
+							uuid = "767a9330-2eea-bd3a-83ce-a8c50a4a3547",
+							version = 3,
+						},
+					},
+				},
+				mechanicTime = 187.08847802632,
+				name = "[DRK]献奉",
+				timeRange = true,
+				timelineIndex = 37,
+				timerOffset = -0.89999997615814,
+				timerStartOffset = -5,
+				uuid = "a3e4427c-24e0-2d42-8440-f49dcd938671",
+				version = 2,
+			},
+			inheritedIndex = 14,
 		},
 	},
 	[39] = 
@@ -8845,6 +8920,167 @@ local tbl =
 				uuid = "a362b97f-5f99-e997-b932-a63340abf7cb",
 				version = 2,
 			},
+		},
+	},
+	[43] = 
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "ACR",
+							conditions = 
+							{
+								
+								{
+									"e82f7069-3848-abe5-87e0-2157a8db3e98",
+									true,
+								},
+								
+								{
+									"83f90448-dc88-1e9f-a0e0-58e0f95e616d",
+									true,
+								},
+								
+								{
+									"051e7732-0c27-8be5-b546-f255d621a200",
+									true,
+								},
+							},
+							gVar = "ACR_RikuDRK3_Tankbar_TheBlackestNightSelf",
+							uuid = "3c1c118a-4c60-300b-bf3d-e808e7545abb",
+							variableTogglesType = 3,
+							version = 2.1,
+						},
+					},
+				},
+				conditions = 
+				{
+					
+					{
+						data = 
+						{
+							category = "Self",
+							conditionType = 3,
+							mpType = 2,
+							mpValue = 3000,
+							uuid = "e82f7069-3848-abe5-87e0-2157a8db3e98",
+							version = 3,
+						},
+					},
+					
+					{
+						data = 
+						{
+							actionCDValue = 0.5,
+							actionID = 7393,
+							category = "Self",
+							comparator = 2,
+							conditionType = 4,
+							uuid = "83f90448-dc88-1e9f-a0e0-58e0f95e616d",
+							version = 3,
+						},
+					},
+					
+					{
+						data = 
+						{
+							category = "Self",
+							conditionType = 13,
+							jobValue = "DARKKNIGHT",
+							name = "isDRK",
+							uuid = "051e7732-0c27-8be5-b546-f255d621a200",
+							version = 3,
+						},
+					},
+				},
+				mechanicTime = 249.21799166092,
+				name = "[DRK]黑盾",
+				timeRange = true,
+				timelineIndex = 43,
+				timerStartOffset = -7,
+				uuid = "29e69797-efa3-b9c6-8904-8722ec69e9e1",
+				version = 2,
+			},
+			inheritedIndex = 10,
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "ACR",
+							conditions = 
+							{
+								
+								{
+									"8d7249e3-1221-3e34-9475-3845b7d47086",
+									true,
+								},
+								
+								{
+									"767a9330-2eea-bd3a-83ce-a8c50a4a3547",
+									true,
+								},
+							},
+							endIfUsed = true,
+							gVar = "ACR_RikuDRK3_Tankbar_Oblation",
+							uuid = "572bd1ba-2225-93ad-ab7c-c81361da1fb0",
+							variableIsHover = true,
+							variableTogglesType = 3,
+							version = 2.1,
+						},
+					},
+				},
+				conditions = 
+				{
+					
+					{
+						data = 
+						{
+							actionCDValue = 61,
+							actionID = 25754,
+							category = "Self",
+							comparator = 2,
+							conditionType = 4,
+							uuid = "8d7249e3-1221-3e34-9475-3845b7d47086",
+							version = 3,
+						},
+					},
+					
+					{
+						data = 
+						{
+							category = "Self",
+							conditionType = 13,
+							jobValue = "DARKKNIGHT",
+							name = "isDRK",
+							uuid = "767a9330-2eea-bd3a-83ce-a8c50a4a3547",
+							version = 3,
+						},
+					},
+				},
+				mechanicTime = 249.21799166092,
+				name = "[DRK]献奉",
+				timeRange = true,
+				timelineIndex = 43,
+				timerOffset = -0.89999997615814,
+				timerStartOffset = -9.5,
+				uuid = "dea060f9-fda7-96b9-b648-1c2304c64578",
+				version = 2,
+			},
+			inheritedIndex = 13,
 		},
 	},
 	[73] = 
@@ -10357,6 +10593,74 @@ local tbl =
 				version = 2,
 			},
 			inheritedIndex = 10,
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "ACR",
+							conditions = 
+							{
+								
+								{
+									"7c427ec4-7fb9-79b9-a807-b62b9f38dbe8",
+									true,
+								},
+								
+								{
+									"42df6567-88d1-5aed-acae-725496027278",
+									true,
+								},
+							},
+							gVar = "ACR_RikuDRK3_Tankbar_DarkMind",
+							uuid = "f3b6ce74-d49a-fc5b-9f84-a024acca9780",
+							variableTogglesType = 3,
+							version = 2.1,
+						},
+					},
+				},
+				conditions = 
+				{
+					
+					{
+						data = 
+						{
+							actionCDValue = 0.5,
+							actionID = 3634,
+							category = "Self",
+							comparator = 2,
+							conditionType = 4,
+							uuid = "7c427ec4-7fb9-79b9-a807-b62b9f38dbe8",
+							version = 3,
+						},
+					},
+					
+					{
+						data = 
+						{
+							category = "Self",
+							conditionType = 13,
+							jobValue = "DARKKNIGHT",
+							name = "isDRK",
+							uuid = "42df6567-88d1-5aed-acae-725496027278",
+							version = 3,
+						},
+					},
+				},
+				mechanicTime = 450.00390950196,
+				name = "[DRK]弃明",
+				timeRange = true,
+				timelineIndex = 79,
+				timerStartOffset = -5,
+				uuid = "7e5eeda6-6d0f-1133-a2e8-15d4c13591e0",
+				version = 2,
+			},
 		},
 	},
 	[80] = 
@@ -18112,9 +18416,6 @@ local tbl =
 			},
 			inheritedIndex = 12,
 		},
-	},
-	[123] = 
-	{
 		
 		{
 			data = 
@@ -18192,13 +18493,13 @@ local tbl =
 						},
 					},
 				},
-				mechanicTime = 631.08148473045,
+				mechanicTime = 608.39401598045,
 				name = "[DRK]黑盾",
 				timeRange = true,
-				timelineIndex = 123,
-				timerEndOffset = -15,
-				timerStartOffset = -23,
-				uuid = "e8a78792-ff5f-7e8f-ab6a-a05114c7bfd0",
+				timelineIndex = 122,
+				timerEndOffset = 5,
+				timerStartOffset = -5,
+				uuid = "35060d35-c8f9-91fb-8a7e-84e590bd8157",
 				version = 2,
 			},
 			inheritedIndex = 10,

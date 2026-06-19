@@ -2786,7 +2786,7 @@ local tbl =
 						data = 
 						{
 							category = "Lua",
-							conditionLua = "return catzp3pri = 1",
+							conditionLua = "return catzp3pri == 1",
 							dequeueIfLuaFalse = true,
 							name = "isksaT",
 							uuid = "73078eac-5262-ff6a-bc7e-88158bd9da61",
@@ -2878,7 +2878,7 @@ local tbl =
 						data = 
 						{
 							category = "Lua",
-							conditionLua = "return catzp3pri = 0",
+							conditionLua = "return catzp3pri == 0",
 							name = "notkasT",
 							uuid = "2eb60fdd-e34d-6ab3-a09c-8a78b207b139",
 							version = 3,
@@ -2967,7 +2967,7 @@ local tbl =
 						data = 
 						{
 							category = "Lua",
-							conditionLua = "return catzp3pri = 1\n\n",
+							conditionLua = "return catzp3pri == 1\n\n",
 							name = "iskasT",
 							uuid = "2eb60fdd-e34d-6ab3-a09c-8a78b207b139",
 							version = 3,
@@ -3166,7 +3166,7 @@ local tbl =
 						data = 
 						{
 							category = "Lua",
-							conditionLua = "return catzp3pri = 0",
+							conditionLua = "return catzp3pri == 0",
 							dequeueIfLuaFalse = true,
 							name = "notksaT",
 							uuid = "73078eac-5262-ff6a-bc7e-88158bd9da61",
@@ -3354,7 +3354,7 @@ local tbl =
 						data = 
 						{
 							category = "Lua",
-							conditionLua = "return catzp3pri = 1",
+							conditionLua = "return catzp3pri == 1",
 							dequeueIfLuaFalse = true,
 							name = "isksaT",
 							uuid = "73078eac-5262-ff6a-bc7e-88158bd9da61",
@@ -3587,7 +3587,7 @@ local tbl =
 						data = 
 						{
 							category = "Lua",
-							conditionLua = "return catzp3pri = 0",
+							conditionLua = "return catzp3pri == 0",
 							dequeueIfLuaFalse = true,
 							name = "notksaT",
 							uuid = "73078eac-5262-ff6a-bc7e-88158bd9da61",
@@ -3775,7 +3775,7 @@ local tbl =
 						data = 
 						{
 							category = "Lua",
-							conditionLua = "return catzp3pri = 1",
+							conditionLua = "return catzp3pri == 1",
 							dequeueIfLuaFalse = true,
 							name = "isksaT",
 							uuid = "73078eac-5262-ff6a-bc7e-88158bd9da61",
@@ -3898,7 +3898,7 @@ local tbl =
 						data = 
 						{
 							category = "Lua",
-							conditionLua = "return catzp3pri = 0\n",
+							conditionLua = "return catzp3pri == 0\n",
 							name = "iskasT",
 							uuid = "2eb60fdd-e34d-6ab3-a09c-8a78b207b139",
 							version = 3,
@@ -3910,7 +3910,7 @@ local tbl =
 				name = "[非卡奥斯T]群减",
 				timeRange = true,
 				timelineIndex = 112,
-				timerStartOffset = -14,
+				timerStartOffset = -14.699999809265,
 				uuid = "2d136adb-1c25-39e3-a738-398f4cd44211",
 				version = 2,
 			},
@@ -3990,8 +3990,8 @@ local tbl =
 						data = 
 						{
 							category = "Lua",
-							conditionLua = "return _G[\"ACR_\"..gACRSelectedProfiles[TensorCore.mGetPlayer().job]..\"_TankStance\"] == \"mt\"",
-							name = "isMT",
+							conditionLua = "return catzp3pri == 1",
+							name = "iskasT",
 							uuid = "2eb60fdd-e34d-6ab3-a09c-8a78b207b139",
 							version = 3,
 						},
@@ -4002,7 +4002,7 @@ local tbl =
 				name = "[MT]群减",
 				timeRange = true,
 				timelineIndex = 120,
-				timerStartOffset = -14,
+				timerStartOffset = -14.699999809265,
 				uuid = "efc071a5-9e87-0e43-9504-38f13dd071b7",
 				version = 2,
 			},
@@ -4082,7 +4082,7 @@ local tbl =
 						data = 
 						{
 							category = "Lua",
-							conditionLua = "return catzp3pri = 1\n\n",
+							conditionLua = "return catzp3pri == 1\n\n",
 							name = "iskasT",
 							uuid = "2eb60fdd-e34d-6ab3-a09c-8a78b207b139",
 							version = 3,
@@ -4094,7 +4094,7 @@ local tbl =
 				name = "[卡奥斯T]群减",
 				timeRange = true,
 				timelineIndex = 122,
-				timerStartOffset = -14,
+				timerStartOffset = -14.699999809265,
 				uuid = "53a58880-2b97-e870-88b0-8300eb39f920",
 				version = 2,
 			},
@@ -4281,7 +4281,7 @@ local tbl =
 						data = 
 						{
 							category = "Lua",
-							conditionLua = "return catzp3pri = 0",
+							conditionLua = "return catzp3pri == 0",
 							dequeueIfLuaFalse = true,
 							name = "notksaT",
 							uuid = "73078eac-5262-ff6a-bc7e-88158bd9da61",
@@ -4373,7 +4373,7 @@ local tbl =
 						data = 
 						{
 							category = "Lua",
-							conditionLua = "return catzp3pri = 0\n",
+							conditionLua = "return catzp3pri == 0\n",
 							name = "iskasT",
 							uuid = "2eb60fdd-e34d-6ab3-a09c-8a78b207b139",
 							version = 3,
@@ -4385,7 +4385,7 @@ local tbl =
 				name = "[非卡奥斯T]群减",
 				timeRange = true,
 				timelineIndex = 135,
-				timerStartOffset = -14,
+				timerStartOffset = -14.699999809265,
 				uuid = "c06ad089-08c7-bff7-bd98-1d09abad6a8e",
 				version = 2,
 			},
@@ -4572,7 +4572,7 @@ local tbl =
 						data = 
 						{
 							category = "Lua",
-							conditionLua = "return catzp3pri = 1",
+							conditionLua = "return catzp3pri == 1",
 							dequeueIfLuaFalse = true,
 							name = "isksaT",
 							uuid = "73078eac-5262-ff6a-bc7e-88158bd9da61",
