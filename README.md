@@ -1,4 +1,4 @@
-## 妖星乱舞绝境战 · 坦克减伤轴（测试版）
+## 妖星乱舞绝境战 · 坦克减伤轴
 
 **Dancing Mad unlimited** 专属减伤轴，当前完成 **P5** 的完整时间轴。有bug请及时反馈
 https://docs.qq.com/sheet/DR3dZa0xCU25aRm9E?tab=976e33
