@@ -2504,6 +2504,7 @@ local tbl =
 							uuid = "a8f97b08-d206-7641-b441-de1b0d39e49a",
 							version = 3,
 						},
+						inheritedIndex = 2,
 					},
 					
 					{
@@ -2515,7 +2516,7 @@ local tbl =
 							uuid = "a44ec9e7-b018-e723-8ba4-9d5d32490a73",
 							version = 3,
 						},
-						inheritedIndex = 3,
+						inheritedIndex = 2,
 					},
 					
 					{
@@ -2786,7 +2787,7 @@ local tbl =
 						data = 
 						{
 							category = "Lua",
-							conditionLua = "return catzp3pri == 1",
+							conditionLua = "return catzp3pri == 0\n",
 							dequeueIfLuaFalse = true,
 							name = "isksaT",
 							uuid = "73078eac-5262-ff6a-bc7e-88158bd9da61",
@@ -2878,7 +2879,7 @@ local tbl =
 						data = 
 						{
 							category = "Lua",
-							conditionLua = "return catzp3pri == 0",
+							conditionLua = "return catzp3pri == 1",
 							name = "notkasT",
 							uuid = "2eb60fdd-e34d-6ab3-a09c-8a78b207b139",
 							version = 3,
@@ -2967,7 +2968,7 @@ local tbl =
 						data = 
 						{
 							category = "Lua",
-							conditionLua = "return catzp3pri == 1\n\n",
+							conditionLua = "return catzp3pri == 0\n",
 							name = "iskasT",
 							uuid = "2eb60fdd-e34d-6ab3-a09c-8a78b207b139",
 							version = 3,
@@ -3166,7 +3167,7 @@ local tbl =
 						data = 
 						{
 							category = "Lua",
-							conditionLua = "return catzp3pri == 0",
+							conditionLua = "return catzp3pri == 1",
 							dequeueIfLuaFalse = true,
 							name = "notksaT",
 							uuid = "73078eac-5262-ff6a-bc7e-88158bd9da61",
@@ -3354,7 +3355,7 @@ local tbl =
 						data = 
 						{
 							category = "Lua",
-							conditionLua = "return catzp3pri == 1",
+							conditionLua = "return catzp3pri == 0",
 							dequeueIfLuaFalse = true,
 							name = "isksaT",
 							uuid = "73078eac-5262-ff6a-bc7e-88158bd9da61",
@@ -3587,7 +3588,7 @@ local tbl =
 						data = 
 						{
 							category = "Lua",
-							conditionLua = "return catzp3pri == 0",
+							conditionLua = "return catzp3pri == 1",
 							dequeueIfLuaFalse = true,
 							name = "notksaT",
 							uuid = "73078eac-5262-ff6a-bc7e-88158bd9da61",
@@ -3775,7 +3776,7 @@ local tbl =
 						data = 
 						{
 							category = "Lua",
-							conditionLua = "return catzp3pri == 1",
+							conditionLua = "return catzp3pri == 0",
 							dequeueIfLuaFalse = true,
 							name = "isksaT",
 							uuid = "73078eac-5262-ff6a-bc7e-88158bd9da61",
@@ -3898,7 +3899,7 @@ local tbl =
 						data = 
 						{
 							category = "Lua",
-							conditionLua = "return catzp3pri == 0\n",
+							conditionLua = "return catzp3pri == 1",
 							name = "iskasT",
 							uuid = "2eb60fdd-e34d-6ab3-a09c-8a78b207b139",
 							version = 3,
@@ -3915,98 +3916,6 @@ local tbl =
 				version = 2,
 			},
 			inheritedIndex = 3,
-		},
-	},
-	[120] = 
-	{
-		
-		{
-			data = 
-			{
-				actions = 
-				{
-					
-					{
-						data = 
-						{
-							aType = "ACR",
-							conditions = 
-							{
-								
-								{
-									"2eb60fdd-e34d-6ab3-a09c-8a78b207b139",
-									true,
-								},
-							},
-							gVar = "ACR_RikuDRK3_Tankbar_DarkMissionary",
-							uuid = "e0feb09e-ebdd-0dbf-ad5d-935f6ef20867",
-							variableTogglesType = 3,
-							version = 2.1,
-						},
-					},
-					
-					{
-						data = 
-						{
-							aType = "ACR",
-							conditions = 
-							{
-								
-								{
-									"2eb60fdd-e34d-6ab3-a09c-8a78b207b139",
-									true,
-								},
-							},
-							gVar = "ACR_RikuGNB3_Tankbar_HeartOfLight",
-							uuid = "a29886ff-7a19-c4ae-ad04-e79f4b2b003a",
-							variableTogglesType = 3,
-							version = 2.1,
-						},
-					},
-					
-					{
-						data = 
-						{
-							aType = "ACR",
-							conditions = 
-							{
-								
-								{
-									"2eb60fdd-e34d-6ab3-a09c-8a78b207b139",
-									true,
-								},
-							},
-							gVar = "ACR_RikuWAR3_Tankbar_ShakeItOff",
-							uuid = "0051e9fd-918b-e40f-abd6-2bd1ddfcd57a",
-							variableTogglesType = 3,
-							version = 2.1,
-						},
-					},
-				},
-				conditions = 
-				{
-					
-					{
-						data = 
-						{
-							category = "Lua",
-							conditionLua = "return catzp3pri == 1",
-							name = "iskasT",
-							uuid = "2eb60fdd-e34d-6ab3-a09c-8a78b207b139",
-							version = 3,
-						},
-						inheritedIndex = 3,
-					},
-				},
-				mechanicTime = 606.36918688225,
-				name = "[MT]群减",
-				timeRange = true,
-				timelineIndex = 120,
-				timerStartOffset = -14.699999809265,
-				uuid = "efc071a5-9e87-0e43-9504-38f13dd071b7",
-				version = 2,
-			},
-			inheritedIndex = 4,
 		},
 	},
 	[122] = 
@@ -4082,7 +3991,7 @@ local tbl =
 						data = 
 						{
 							category = "Lua",
-							conditionLua = "return catzp3pri == 1\n\n",
+							conditionLua = "return catzp3pri == 0",
 							name = "iskasT",
 							uuid = "2eb60fdd-e34d-6ab3-a09c-8a78b207b139",
 							version = 3,
@@ -4281,7 +4190,7 @@ local tbl =
 						data = 
 						{
 							category = "Lua",
-							conditionLua = "return catzp3pri == 0",
+							conditionLua = "return catzp3pri == 1",
 							dequeueIfLuaFalse = true,
 							name = "notksaT",
 							uuid = "73078eac-5262-ff6a-bc7e-88158bd9da61",
@@ -4373,7 +4282,7 @@ local tbl =
 						data = 
 						{
 							category = "Lua",
-							conditionLua = "return catzp3pri == 0\n",
+							conditionLua = "return catzp3pri == 1\n",
 							name = "iskasT",
 							uuid = "2eb60fdd-e34d-6ab3-a09c-8a78b207b139",
 							version = 3,
@@ -4572,7 +4481,7 @@ local tbl =
 						data = 
 						{
 							category = "Lua",
-							conditionLua = "return catzp3pri == 1",
+							conditionLua = "return catzp3pri == 0",
 							dequeueIfLuaFalse = true,
 							name = "isksaT",
 							uuid = "73078eac-5262-ff6a-bc7e-88158bd9da61",
