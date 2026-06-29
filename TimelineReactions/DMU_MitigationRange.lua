@@ -1269,6 +1269,11 @@ local tbl =
 									"13e198bc-e494-b0d7-8829-937255c149ee",
 									true,
 								},
+								
+								{
+									"b16bab1c-2e68-23f3-a53f-d57bef285e84",
+									true,
+								},
 							},
 							gVar = "ACR_TensorRequiem3_CD",
 							uuid = "64a36cca-0c7f-8488-a6b2-0302877d2770",
@@ -1294,6 +1299,11 @@ local tbl =
 									"1b107493-3bf9-bd29-903a-307c614d8435",
 									true,
 								},
+								
+								{
+									"b16bab1c-2e68-23f3-a53f-d57bef285e84",
+									true,
+								},
 							},
 							gVar = "ACR_RikuNIN3_CD",
 							uuid = "3f434f17-a6c0-52cb-b4b6-905b8962a6a9",
@@ -1317,6 +1327,11 @@ local tbl =
 								
 								{
 									"a09894ef-a730-fbf0-b932-823bcb69269a",
+									true,
+								},
+								
+								{
+									"b16bab1c-2e68-23f3-a53f-d57bef285e84",
 									true,
 								},
 							},
@@ -1457,6 +1472,11 @@ local tbl =
 									"13e198bc-e494-b0d7-8829-937255c149ee",
 									true,
 								},
+								
+								{
+									"b16bab1c-2e68-23f3-a53f-d57bef285e84",
+									true,
+								},
 							},
 							gVar = "ACR_TensorRequiem3_CD",
 							uuid = "64a36cca-0c7f-8488-a6b2-0302877d2770",
@@ -1482,6 +1502,11 @@ local tbl =
 									"1b107493-3bf9-bd29-903a-307c614d8435",
 									true,
 								},
+								
+								{
+									"b16bab1c-2e68-23f3-a53f-d57bef285e84",
+									true,
+								},
 							},
 							gVar = "ACR_RikuNIN3_CD",
 							uuid = "3f434f17-a6c0-52cb-b4b6-905b8962a6a9",
@@ -1505,6 +1530,11 @@ local tbl =
 								
 								{
 									"a09894ef-a730-fbf0-b932-823bcb69269a",
+									true,
+								},
+								
+								{
+									"b16bab1c-2e68-23f3-a53f-d57bef285e84",
 									true,
 								},
 							},
@@ -1645,6 +1675,11 @@ local tbl =
 									"13e198bc-e494-b0d7-8829-937255c149ee",
 									true,
 								},
+								
+								{
+									"b16bab1c-2e68-23f3-a53f-d57bef285e84",
+									true,
+								},
 							},
 							gVar = "ACR_TensorRequiem3_CD",
 							uuid = "64a36cca-0c7f-8488-a6b2-0302877d2770",
@@ -1670,6 +1705,11 @@ local tbl =
 									"1b107493-3bf9-bd29-903a-307c614d8435",
 									true,
 								},
+								
+								{
+									"b16bab1c-2e68-23f3-a53f-d57bef285e84",
+									true,
+								},
 							},
 							gVar = "ACR_RikuNIN3_CD",
 							uuid = "3f434f17-a6c0-52cb-b4b6-905b8962a6a9",
@@ -1693,6 +1733,11 @@ local tbl =
 								
 								{
 									"a09894ef-a730-fbf0-b932-823bcb69269a",
+									true,
+								},
+								
+								{
+									"b16bab1c-2e68-23f3-a53f-d57bef285e84",
 									true,
 								},
 							},
