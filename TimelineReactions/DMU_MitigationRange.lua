@@ -738,6 +738,11 @@ local tbl =
 									"13e198bc-e494-b0d7-8829-937255c149ee",
 									true,
 								},
+								
+								{
+									"a9436681-bd7e-8b17-aad1-a3449fc55278",
+									true,
+								},
 							},
 							gVar = "ACR_TensorRequiem3_CD",
 							uuid = "64a36cca-0c7f-8488-a6b2-0302877d2770",
@@ -763,6 +768,11 @@ local tbl =
 									"1b107493-3bf9-bd29-903a-307c614d8435",
 									true,
 								},
+								
+								{
+									"a9436681-bd7e-8b17-aad1-a3449fc55278",
+									true,
+								},
 							},
 							gVar = "ACR_RikuNIN3_CD",
 							uuid = "3f434f17-a6c0-52cb-b4b6-905b8962a6a9",
@@ -786,6 +796,11 @@ local tbl =
 								
 								{
 									"a09894ef-a730-fbf0-b932-823bcb69269a",
+									true,
+								},
+								
+								{
+									"a9436681-bd7e-8b17-aad1-a3449fc55278",
 									true,
 								},
 							},
@@ -877,6 +892,17 @@ local tbl =
 							version = 3,
 						},
 					},
+					
+					{
+						data = 
+						{
+							category = "Lua",
+							conditionLua = "return MuAiGuide.Config.DmuCatZCfg.BlazeTsunami1.Field == true",
+							name = "p3-2",
+							uuid = "a9436681-bd7e-8b17-aad1-a3449fc55278",
+							version = 3,
+						},
+					},
 				},
 				mechanicTime = 470.18264616806,
 				name = "[MuAiRdps]远敏团减",
@@ -885,6 +911,209 @@ local tbl =
 				timerOffset = -14.5,
 				timerStartOffset = -7,
 				uuid = "ad4b2f5c-5453-c4ff-981d-afcb981418f5",
+				version = 2,
+			},
+		},
+	},
+	[98] = 
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							actionID = 16889,
+							atomicPriority = true,
+							conditions = 
+							{
+								
+								{
+									"902adaeb-66ba-9e87-90a8-ea6729ec5d01",
+									true,
+								},
+								
+								{
+									"13e198bc-e494-b0d7-8829-937255c149ee",
+									true,
+								},
+								
+								{
+									"a9436681-bd7e-8b17-aad1-a3449fc55278",
+									true,
+								},
+							},
+							gVar = "ACR_TensorRequiem3_CD",
+							uuid = "64a36cca-0c7f-8488-a6b2-0302877d2770",
+							version = 2.1,
+						},
+						inheritedIndex = 1,
+					},
+					
+					{
+						data = 
+						{
+							actionID = 7405,
+							atomicPriority = true,
+							conditions = 
+							{
+								
+								{
+									"d61f2545-5ba1-ec93-88f9-15abd67e9af4",
+									true,
+								},
+								
+								{
+									"1b107493-3bf9-bd29-903a-307c614d8435",
+									true,
+								},
+								
+								{
+									"a9436681-bd7e-8b17-aad1-a3449fc55278",
+									true,
+								},
+							},
+							gVar = "ACR_RikuNIN3_CD",
+							uuid = "3f434f17-a6c0-52cb-b4b6-905b8962a6a9",
+							version = 2.1,
+						},
+						inheritedIndex = 1,
+					},
+					
+					{
+						data = 
+						{
+							actionID = 16012,
+							atomicPriority = true,
+							conditions = 
+							{
+								
+								{
+									"cede5c21-669a-8bf4-928e-ba1c127c9e62",
+									true,
+								},
+								
+								{
+									"a09894ef-a730-fbf0-b932-823bcb69269a",
+									true,
+								},
+								
+								{
+									"a9436681-bd7e-8b17-aad1-a3449fc55278",
+									true,
+								},
+							},
+							gVar = "ACR_TensorRequiem3_CD",
+							uuid = "13a060b5-5e4e-a576-95e6-cdf6309191d2",
+							version = 2.1,
+						},
+						inheritedIndex = 3,
+					},
+				},
+				conditions = 
+				{
+					
+					{
+						data = 
+						{
+							category = "Self",
+							conditionType = 13,
+							dequeueIfLuaFalse = true,
+							jobValue = "BARD",
+							name = "吟游诗人",
+							uuid = "d61f2545-5ba1-ec93-88f9-15abd67e9af4",
+							version = 3,
+						},
+					},
+					
+					{
+						data = 
+						{
+							category = "Self",
+							conditionType = 13,
+							dequeueIfLuaFalse = true,
+							jobValue = "DANCER",
+							name = "舞者",
+							uuid = "cede5c21-669a-8bf4-928e-ba1c127c9e62",
+							version = 3,
+						},
+					},
+					
+					{
+						data = 
+						{
+							category = "Self",
+							conditionType = 13,
+							dequeueIfLuaFalse = true,
+							jobValue = "MACHINIST",
+							name = "机工士",
+							uuid = "902adaeb-66ba-9e87-90a8-ea6729ec5d01",
+							version = 3,
+						},
+					},
+					
+					{
+						data = 
+						{
+							actionID = 16889,
+							category = "Self",
+							comparator = 2,
+							conditionType = 4,
+							name = "策动CD",
+							uuid = "13e198bc-e494-b0d7-8829-937255c149ee",
+							version = 3,
+						},
+					},
+					
+					{
+						data = 
+						{
+							actionID = 7405,
+							category = "Self",
+							comparator = 2,
+							conditionType = 4,
+							name = "行吟CD",
+							uuid = "1b107493-3bf9-bd29-903a-307c614d8435",
+							version = 3,
+						},
+						inheritedIndex = 6,
+					},
+					
+					{
+						data = 
+						{
+							actionID = 16012,
+							category = "Self",
+							comparator = 2,
+							conditionType = 4,
+							name = "桑巴CD",
+							uuid = "a09894ef-a730-fbf0-b932-823bcb69269a",
+							version = 3,
+						},
+					},
+					
+					{
+						data = 
+						{
+							category = "Lua",
+							conditionLua = "return MuAiGuide.Config.DmuCatZCfg.VacuumWave.Field == true",
+							name = "p3-8人分摊",
+							uuid = "a9436681-bd7e-8b17-aad1-a3449fc55278",
+							version = 3,
+						},
+					},
+				},
+				mechanicTime = 518.31461099411,
+				name = "[MuAiRdps]远敏团减",
+				timeRange = true,
+				timelineIndex = 98,
+				timerOffset = -14.5,
+				timerStartOffset = -7,
+				uuid = "faea92f0-c4db-b64c-a546-bca2b972291c",
 				version = 2,
 			},
 		},
